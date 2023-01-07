@@ -22,7 +22,6 @@ header{
 .banner-info{
     color: white;
     font-size: 18px;
-    /* font-weight: ; */
     margin-bottom: 32px;
     line-height: 180%;
     
@@ -35,11 +34,11 @@ header{
     color: #005FAC;
     border-radius: 10px;
     font-size: 20px;
-    /* font-weight: ; */
     border: 0;
     padding: 20px 25px;
 
 }
+
 
 /* My failure styles */
 
@@ -78,4 +77,35 @@ header{
 }
 .fa-check{
     color: rgb(108, 215, 0);
+}
+
+
+/* My Plans Style  */
+
+.plans h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+.my-plans{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+.my-plans img{
+    padding-left: 12px;
+    margin-bottom: 15px;
+}
+.plan-items{
+    text-align: center;
+}
+.my-plans p{
+    color: #737272;
+    font-size: 20px;
+}
+.my-plans h2{
+    margin-bottom: 10px;
 }
