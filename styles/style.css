@@ -88,7 +88,7 @@ header{
     font-weight: 700;
     margin-top: 130px;
     margin-bottom: 90px;
-    text-decoration: underline;
+
 }
 .my-plans{
     display: flex;
@@ -134,4 +134,80 @@ header{
     color: white;
     font-size: 45px;
     margin-bottom: 25px;
+}
+
+/* Footer styles */
+.the-end{
+    display: flex;
+    /* align-items: center; */
+    gap: 450px;
+    background-color:rgb(19, 44, 68);
+    /* padding-bottom: 200px; */
+    justify-content: center;
+}
+
+/* left footer  */
+
+.left-footer{
+    color: white;
+    padding: 100px 0;
+
+}
+.left-footer h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.left-footer p{
+    font-size: 20px;
+    line-height: 200%;
+    
+}
+.email{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.phone{
+    margin-bottom: 40px;
+}
+
+.icon{
+    display: flex;
+    gap: 15px;
+}
+/* .right-footer  */
+
+
+.right-footer{
+    color: white;
+    padding: 100px 0;
+
+}
+.right-footer p{
+    font-size: 30px;
+    margin-bottom: 35px;
+    margin-top: 20px;
+}
+input{
+    display: block;
+
+    background-color: rgb(19, 44, 68);
+    border: 2px solid white;
+    border-radius: 8px;
+    
+    font-size: 22px;
+    padding: 22px 59px 22px 23px;
+    margin-bottom: 20px;
+    
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.541);
+}
+
+.btn-2{
+    padding: 22px 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px; 
+    background: #005FAC;
+    color: white;
+    font-size: 23px;
 }
