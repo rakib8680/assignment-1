@@ -87,7 +87,7 @@ header{
     font-size: 50px;
     font-weight: 700;
     margin-top: 130px;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     text-decoration: underline;
 }
 .my-plans{
@@ -108,4 +108,30 @@ header{
 }
 .my-plans h2{
     margin-bottom: 10px;
+}
+
+/* card styles */
+
+/* url(../images/gradient1.png) */
+
+.card{
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png)  ; 
+    /* background-blend-mode: overlay; */
+    background-size: cover;
+    width: 1300px;
+    height: 343px;
+    margin-left: 305px;
+    margin-top: 150px;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 130px;
+}
+.card-info{
+    padding-top: 57px;
+    padding-left: 57px;
+}
+.card h2{
+    color: white;
+    font-size: 45px;
+    margin-bottom: 25px;
 }
